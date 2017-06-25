@@ -11,3 +11,8 @@ function getRes() {
     }
 
 }
+
+
+function getPercentages(sum, discount) {
+    return printRes(sum - ((sum / 100) * discount));
+}
