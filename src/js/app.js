@@ -6,7 +6,7 @@ function getRes() {
         y = parseFloat($('#y').val());
 
     if (a > b) {
-        alert(`А должно быть меньше B`);
+        alert(`А must be less than  B`);
 
     }
 
@@ -19,4 +19,4 @@ function getPercentages(sum, discount) {
 
 function printRes(num) {
     $('#space-for-print').html(num);
-};
+}
