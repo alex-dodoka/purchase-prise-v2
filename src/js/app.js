@@ -19,4 +19,4 @@ function getPercentages(sum, discount) {
 
 function printRes(num) {
     $('#space-for-print').html(num);
-}
+};
