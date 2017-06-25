@@ -16,3 +16,7 @@ function getRes() {
 function getPercentages(sum, discount) {
     return printRes(sum - ((sum / 100) * discount));
 }
+
+function printRes(num) {
+    $('#space-for-print').html(num);
+}
